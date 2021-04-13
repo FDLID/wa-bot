@@ -291,7 +291,7 @@ async function starts() {
 					} else {
 						reply('Terjadi kesalahan, silahkan pilih theme lain')
 					}
-					break
+					
 				case 'tahta':
 					if (args.length < 1) return reply('Teksnya om')
 					anu = `https://mhankbarbar.moe/api/htahta?text=${args.join(' ')}&apiKey=${apiKey}`
