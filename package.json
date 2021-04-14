@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "RR-018",
+  "author": "RR-018xFDL",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1",
@@ -45,10 +45,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FDLBOT/new1.git"
+    "url": "git+https://github.com/FDLBOT/wa-bot.git"
   },
   "bugs": {
-    "url": "https://github.com/FDLBOT/new1/issues"
+    "url": "https://github.com/FDLBOT/wa-bot/issues"
   },
-  "homepage": "https://github.com/FDLBOT/new1#readme"
+  "homepage": "https://github.com/FDLBOT/wa-bot#readme"
 }
