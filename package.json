@@ -1,0 +1,54 @@
+{
+  "name": "termux-wabot",
+  "version": "0.0.2",
+  "description": "Tetap maju,Walau banyak yang ngehina @RR-018",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "bot",
+    "whatsapp",
+    "bot"
+  ],
+  "author": "RR-018",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.4.1",
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "cfonts": "^2.9.0",
+    "escape-string-regexp": "^4.0.0",
+    "fake-useragent": "^1.0.1",
+    "file-type": "^16.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "moment-timezone": "^0.5.32",
+    "multistream": "^4.0.1",
+    "node-fetch": "^2.6.1",
+    "remove.bg": "^1.3.0",
+    "request": "^2.81.0",
+    "spinnies": "^0.5.1",
+    "multistream": "^4.1.0",
+    "parse-ms": "^2.1.0",
+    "brainly-scraper": "^1.0.3",
+    "imgbb": "^1.0.40",
+    "performance-now": "^2.1.0",
+    "imgbb-uploader": "1.3.0",
+    "tiktok-scraper": "^1.4.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FDLBOT/new1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FDLBOT/new1/issues"
+  },
+  "homepage": "https://github.com/FDLBOT/new1#readme"
+}
