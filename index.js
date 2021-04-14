@@ -869,7 +869,7 @@ async function starts() {
                 case 'happymod':
                     hmm = body.slice(10)
                     anu = await fetchJson(`https://api.zeks.xyz/api/happymod?apikey=apivinz&q=${hmm}`, {method: 'get'})
-                    buffer = await.getBuffer(anu.result)
+                    buffer = await getBuffer(anu.result)
                     teks = `Name Apk : ${i.title}\nRating ${i.rating}\nUrl ${i.url}`
                     client.sendMessage(from, buff, image, {quoted: mek, caption: 'teks'})
                     break 
