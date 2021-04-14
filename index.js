@@ -4,7 +4,7 @@ const {
     Presence,
     Mimetype,
     WALocationMessage,
-   WA_MESSAGE_STUB_TYPES,
+    WA_MESSAGE_STUB_TYPES,
     ProxyAgent,
     GroupSettingChange,
     waChatKey,
