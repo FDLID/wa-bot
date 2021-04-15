@@ -131,6 +131,11 @@ const help = (pushname, prefix, time) => {
 ╠◪ *${prefix}matrix*
 ╠◪ *${prefix}tahta*
 ╠◪ *${prefix}fakeserti*
+╠◪ *${prefix}3d*
+╠◪ *${prefix}romance*
+╠◪ *${prefix}coffe1*
+╠◪ *${prefix}coffe2*
+╠◪ *${prefix}logoff*
 ╠◪ *${prefix}water*
 ╠◪ *${prefix}heker*
 ╠◪ *${prefix}fft*
