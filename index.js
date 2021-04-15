@@ -1569,6 +1569,36 @@ async function starts() {
 			teks = body.slice(6)
 			buffer = await getBuffer(`https://api.zeks.xyz/api/bneon?apikey=apivinz&text=${teks}`, {method: 'get'})
 			client.sendMessage(from, buffer, image, {quoted: mek})
+		        break
+			case '3d':
+			if (args.length < 1) return reply('Masukan text')
+			teks = body.slice(4)
+			buffer = await getBuffer(`https://api.zeks.xyz/api/text3d?text=${teks}&apikey=apivinz`, {method: 'get'})
+			client.sendMessage(from, buffer, image, {quoted: mek})
+			break
+			case 'logoff':
+			if (args.length < 1) return reply('Masukan text')
+			teks = body.slice(8)
+			buffer = await getBuffer(`https://api.zeks.xyz/api/epep?text=${teks}&apikey=apivinz`, {method: 'get'})
+			client.sendMessage(from, buffer, image, {quoted: mek})
+			break
+			case 'coffe1':
+			if (args.length < 1) return reply('Masukan text')
+			teks = body.slice(8)
+			buffer = await getBuffer(`https://videfikri.com/api/textmaker/coffeecup/?text=${teks}`, {method: 'get'})
+			client.sendMessage(from, buffer, image, {quoted: mek})
+			break
+			case 'coffe2':
+			if (args.length < 1) return reply('Masukan text')
+			teks = body.slice(8)
+			buffer = await getBuffer(`https://videfikri.com/api/textmaker/coffeecup2/?text=${teks}`, {method: 'get'})
+			client.sendMessage(from, buffer, image, {quoted: mek})
+			break
+			case 'romance':
+			if (args.length < 1) return reply('Masukan text')
+			teks = body.slice(9)
+			buffer = await getBuffer(`https://videfikri.com/api/textmaker/romancetext/?text=${teks}`, {method: 'get'})
+			client.sendMessage(from, buffer, image, {quoted: mek})
 			break
 			case 'leaves':
 			if (args.length < 1) return reply('Masukan text')
