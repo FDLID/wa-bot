@@ -2,7 +2,9 @@ const help = (pushname, prefix, time) => {
 	return `  ●-▬▬▬ஜ۩۞۩ஜ▬▬▬▬-●
 
 
-👑 *INFO* 👑
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭
+        *I N F O*
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 ❉──────────────────❉
 ╭──────────────────╮
 │➢ *Nama* : ${pushname}
@@ -19,14 +21,14 @@ const help = (pushname, prefix, time) => {
 ║          *SIMPLE MENU*
 ╠════════════════════
 ╠◪ *${prefix}sticker*
-╠◪ *${prefix}stickergif
+╠◪ *${prefix}stickergif*
 ╠◪ *${prefix}toimg*
 ╠◪ *${prefix}ocr*
-╠◪ *${prefix}tts text
-╠◪ *${prefix}gtts text
-╠◪ *${prefix}attp text
-╠◪ *${prefix}img2url
-╠◪ *${prefix}emoji2img
+╠◪ *${prefix}tts text*
+╠◪ *${prefix}gtts text*
+╠◪ *${prefix}attp text*
+╠◪ *${prefix}img2url*
+╠◪ *${prefix}emoji2img*
 ╠════════════════════
 ║         *WHATSAPP BOT*
 ╠════════════════════
@@ -118,11 +120,11 @@ const help = (pushname, prefix, time) => {
 ╠════════════════════
 ║           *RANDOM IMG*
 ╠════════════════════
-╠◪ *${prefix}randomff
-╠◪ *${prefix}randombts
-╠◪ *${prefix}randomwaifu
-╠◪ *${prefix}randomshota
-╠◪ *${prefix}randomhentai
+╠◪ *${prefix}randomff*
+╠◪ *${prefix}randombts*
+╠◪ *${prefix}randomwaifu*
+╠◪ *${prefix}randomshota*
+╠◪ *${prefix}randomhentai*
 ╠════════════════════
 ║           *LOGO MENU*
 ╠════════════════════
