@@ -6,4 +6,4 @@
 
 ----------
 ``Setting :``
-Ubah number owner : ``https://github.com/FDLBOT/wa-bot/blob/main/src/settings.json#L4```
+[OwnerNumber](https://github.com/FDLBOT/wa-bot/blob/main/src/settings.json#L4)
