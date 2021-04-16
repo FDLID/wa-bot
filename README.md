@@ -6,7 +6,7 @@
 
 ----------
 ``Setting :``
-<p align="center">
+<h1 align="center"> SETTING
 
 
 [OwnerNumber](https://github.com/FDLBOT/wa-bot/blob/main/src/settings.json#L4)
