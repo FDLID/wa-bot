@@ -10,11 +10,3 @@
 
 
 [OwnerNumber](https://github.com/FDLBOT/wa-bot/blob/main/src/settings.json#L4)
-
-
-----------
-
-```BUTUH BANTUAN??
-
-[Whatsapp] (https://Wa.me/+6285788555068)
-  
