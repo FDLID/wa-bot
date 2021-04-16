@@ -13,6 +13,6 @@
 
 ## SPESIAL THANKS TO <👑>
 
-[MhankBarBar](https://github.com/MhankBarBar)
+MhankBarbar -> [MhankBarBar](https://github.com/MhankBarBar)
 
-[RR-018](https://github.com/rizkiramadhan4617/)
+M.Rizki R -> [RR-018](https://github.com/rizkiramadhan4617/)
