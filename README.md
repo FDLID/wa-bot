@@ -3,3 +3,5 @@
 <p align="center">
 <img src="https://f.top4top.io/p_18972zu6n0.png" width="30%" alt="API Giphy logo"/>
 </p>
+----------
+Setting :
