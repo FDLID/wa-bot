@@ -5,4 +5,4 @@
 </p>
 
 ----------
-``Setting :``, width="40%"
+``Setting :``width="40%"
