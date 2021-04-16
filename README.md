@@ -10,3 +10,8 @@
 
 
 [OwnerNumber](https://github.com/FDLBOT/wa-bot/blob/main/src/settings.json#L4)
+
+## SPESIAL THANKS TO
+
+[MhankBarBar](https://github.com/MhankBarBar)
+[RR-018](https://github.com/rizkiramadhan4617/)
