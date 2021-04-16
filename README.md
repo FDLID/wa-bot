@@ -12,8 +12,8 @@
 [OwnerNumber](https://github.com/FDLBOT/wa-bot/blob/main/src/settings.json#L4)
 
 
-
-BUTUH BANTUAN??
+----------
+```BUTUH BANTUAN??
 <p align="center">
-[Whatsapp :](https://Wa.me/+6285788555068)
+[Whatsapp](https://Wa.me/+6285788555068)
   
