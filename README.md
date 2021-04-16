@@ -11,7 +11,7 @@
 
 [OwnerNumber](https://github.com/FDLBOT/wa-bot/blob/main/src/settings.json#L4)
 
-## SPESIAL THANKS TO <👑>
+## SPESIAL THANKS TO < 👑 >
 
 ## • MhankBarbar -> [MhankBarBar](https://github.com/MhankBarBar)
 
