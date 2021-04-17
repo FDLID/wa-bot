@@ -226,7 +226,7 @@ const help = (pushname, prefix, time) => {
 ╠◪ *${prefix}setleave*
 ╠◪ *${prefix}setwelcome*
 ╠════════════════════
-║ *CREATOR FDL & RR-018*
+║ *CREATOR FDL & RR•018*
 ╚════════════════════`
 }
 
