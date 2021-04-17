@@ -1,6 +1,8 @@
 {
 	"prefix": "#",
 	"cr": "FDL × RR-018",
-	"ownerNumber":"628990542731",
+	"ownerNumber": "628990542731",
+	"welcome": "Hai,Welcome to",
+	"leave": "Good bay",
 	"apiKey": "SetApi"
 }

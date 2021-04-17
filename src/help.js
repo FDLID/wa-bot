@@ -18,6 +18,8 @@ const help = (pushname, prefix, time) => {
 ╠════════════════════
 ╠◪ *${prefix}sticker*
 ╠◪ *${prefix}stickergif*
+╠◪ *${prefix}linesticker*
+╠◪ *${prefix}searchsticker*
 ╠◪ *${prefix}toimg*
 ╠◪ *${prefix}ocr*
 ╠◪ *${prefix}tts text*
@@ -31,6 +33,8 @@ const help = (pushname, prefix, time) => {
 ╠◪ *${prefix}menu*
 ╠◪ *${prefix}info*
 ╠◪ *${prefix}owner*
+╠◪ *${prefix}donasi*
+╠◪ *${prefix}runtime*
 ╠◪ *${prefix}offcgroup*
 ╠◪ *${prefix}bug Masalah*
 ╠◪ *${prefix}blocklist*
@@ -40,6 +44,7 @@ const help = (pushname, prefix, time) => {
 ╠════════════════════
 ╠◪ *${prefix}quran*
 ╠◪ *${prefix}quran1*
+╠◪ *${prefix}alkitab*
 ╠◪ *${prefix}jsholat*
 ╠◪ *${prefix}doawitir*
 ╠◪ *${prefix}kisahnabi*
@@ -55,6 +60,7 @@ const help = (pushname, prefix, time) => {
 ╠◪ *${prefix}joox*
 ╠◪ *${prefix}ytmp4*
 ╠◪ *${prefix}ytmp3*
+╠◪ *${prefix}igtv*
 ╠◪ *${prefix}igvideo*
 ╠◪ *${prefix}igphoto*
 ╠◪ *${prefix}mediafire*
@@ -77,7 +83,7 @@ const help = (pushname, prefix, time) => {
 ╠◪ *${prefix}resepmasakan*
 ╠◪ *${prefix}nulis text*
 ╠◪ *${prefix}nulis2 text*
-╠◪ *${prefix}nulis2 nama|kls|text*
+╠◪ *${prefix}nulis3 nama|kls|text*
 ╠════════════════════
 ║         *STORAGE MENU*
 ╠════════════════════
@@ -99,8 +105,12 @@ const help = (pushname, prefix, time) => {
 ╠◪ *${prefix}nickff*
 ╠◪ *${prefix}jam*
 ╠◪ *${prefix}wiki*
-╠◪ *${prefix}lirik*
 ╠◪ *${prefix}bitly*
+╠◪ *${prefix}lirik*
+╠◪ *${prefix}chord*
+╠◪ *${prefix}cerpen*
+╠◪ *${prefix}cersex*
+╠◪ *${prefix}brainly*
 ╠◪ *${prefix}quotes*
 ╠◪ *${prefix}bpfont*
 ╠◪ *${prefix}pantun*
@@ -110,62 +120,73 @@ const help = (pushname, prefix, time) => {
 ╠◪ *${prefix}barcode*
 ╠◪ *${prefix}pastebin*
 ╠◪ *${prefix}simi text*
+╠◪ *${prefix}artimimpi*
+╠◪ *${prefix}infonomor*
 ╠◪ *${prefix}memeindo*
+╠◪ *${prefix}mememaker*
 ╠◪ *${prefix}happymod*
 ╠◪ *${prefix}bacakomik*
+╠◪ *${prefix}jadwaltvnow*
+╠◪ *${prefix}watpaddsearch*
 ╠════════════════════
 ║           *RANDOM IMG*
 ╠════════════════════
-╠◪ *${prefix}randomff*
 ╠◪ *${prefix}randombts*
+╠◪ *${prefix}randompubg*
 ╠◪ *${prefix}randomwaifu*
 ╠◪ *${prefix}randomshota*
 ╠◪ *${prefix}randomhentai*
 ╠════════════════════
 ║           *LOGO MENU*
 ╠════════════════════
-╠◪ *${prefix}matrix*
-╠◪ *${prefix}tahta*
-╠◪ *${prefix}fakeserti*
 ╠◪ *${prefix}3d*
-╠◪ *${prefix}romance*
+╠◪ *${prefix}tahta*
+╠◪ *${prefix}neon*
+╠◪ *${prefix}water*
+╠◪ *${prefix}phlogo*
+╠◪ *${prefix}leaves*
 ╠◪ *${prefix}coffe1*
 ╠◪ *${prefix}coffe2*
 ╠◪ *${prefix}logoff*
-╠◪ *${prefix}water*
-╠◪ *${prefix}heker*
-╠◪ *${prefix}fft*
-╠◪ *${prefix}fft1*
-╠◪ *${prefix}fft2*
-╠◪ *${prefix}fft3*
-╠◪ *${prefix}fft4*
-╠◪ *${prefix}pserti*
-╠◪ *${prefix}pserti1*
-╠◪ *${prefix}pserti2*
-╠◪ *${prefix}pserti3*
-╠◪ *${prefix}pserti4*
+╠◪ *${prefix}matrix*
+╠◪ *${prefix}thunder*
+╠◪ *${prefix}romance*
+╠◪ *${prefix}firework*
+╠◪ *${prefix}wolflogo*
+╠◪ *${prefix}fakeserti*
+╠◪ *${prefix}sparkling*
+╠◪ *${prefix}darkneon*
+╠◪ *${prefix}breakwall*
+╠◪ *${prefix}glitchtext*
+╠◪ *${prefix}tweetfake*
+╠◪ *${prefix}goldbutton*
+╠◪ *${prefix}silverbutton*
+╠◪ *${prefix}anakharam*
+╠◪ *${prefix}ffserti*
+╠◪ *${prefix}ffserti1*
+╠◪ *${prefix}ffserti2*
+╠◪ *${prefix}ffserti3*
+╠◪ *${prefix}ffserti4*
 ╠◪ *${prefix}mltserti*
 ╠◪ *${prefix}mltserti2*
 ╠◪ *${prefix}mltserti3*
 ╠◪ *${prefix}mltserti4*
 ╠◪ *${prefix}mltserti5*
-╠◪ *${prefix}wolflogo*
-╠◪ *${prefix}darkneon*
-╠◪ *${prefix}neon*
-╠◪ *${prefix}leaves*
-╠◪ *${prefix}breakwall*
-╠◪ *${prefix}firework*
-╠◪ *${prefix}thunder*
-╠◪ *${prefix}glitchtext*
-╠◪ *${prefix}tweetfake*
-╠◪ *${prefix}anakharam*
-╠◪ *${prefix}goldbutton*
-╠◪ *${prefix}silverbutton*
+╠◪ *${prefix}pubgserti*
+╠◪ *${prefix}pubgserti1*
+╠◪ *${prefix}pubgserti2*
+╠◪ *${prefix}pubgserti3*
+╠◪ *${prefix}pubgserti4*
 ╠════════════════════
 ║           *GAME MENU*
 ╠════════════════════
 ╠◪ *${prefix}slot*
 ╠◪ *${prefix}slot1*
+╠◪ *${prefix}koin*
+╠◪ *${prefix}truth*
+╠◪ *${prefix}dare*
+╠◪ *${prefix}fitnah*
+╠◪ *${prefix}jadian*
 ╠◪ *${prefix}wa.me*
 ╠◪ *${prefix}readmore*
 ╠◪ *${prefix}tebakgambar*
@@ -177,31 +198,33 @@ const help = (pushname, prefix, time) => {
 ╠◪ *${prefix}kick*
 ╠◪ *${prefix}clone*
 ╠◪ *${prefix}leave*
-╠◪ *${prefix}groupinfo*
+╠◪ *${prefix}tagall*
+╠◪ *${prefix}tutup*
+╠◪ *${prefix}kickall*
+╠◪ *${prefix}hidetag*
 ╠◪ *${prefix}promote*
 ╠◪ *${prefix}demote*
 ╠◪ *${prefix}listonline*
 ╠◪ *${prefix}listadmins*
 ╠◪ *${prefix}linkgroup*
-╠◪ *${prefix}tagall*
+╠◪ *${prefix}opentime*
+╠◪ *${prefix}closetime*
+╠◪ *${prefix}groupinfo*
 ╠◪ *${prefix}mentionall*
 ╠◪ *${prefix}ownergroup*
-╠◪ *${prefix}tutup*
-╠◪ *${prefix}kickall*
-╠◪ *${prefix}hidetag*
 ╠◪ *${prefix}group open|close*
-╠◪ *${prefix}closetime*
-╠◪ *${prefix}opentime*
-╠◪ *${prefix}welcome 1/0*
 ╠◪ *${prefix}antilink enable/disable*
+╠◪ *${prefix}welcome enable/disable*
 ╠════════════════════
 ║       *OWNER COMAND*
 ╠════════════════════
 ╠◪ *${prefix}bc*
 ╠◪ *${prefix}setcr*
-╠◪ *${prefix}setprefix*
 ╠◪ *${prefix}return*
 ╠◪ *${prefix}clearall*
+╠◪ *${prefix}setprefix*
+╠◪ *${prefix}setleave*
+╠◪ *${prefix}setwelcome*
 ╠════════════════════
 ║ *CREATOR FDL & RR-018*
 ╚════════════════════`
