@@ -976,14 +976,6 @@ async function starts() {
                     teks = `Mimpi : ${body.slice(11)}\nArti Mimpi : ${anu.result}`
                     client.sendMessage(from, teks, text, {quoted: mek})
                     break
-                case 'watpaddsearch':
-                    if (args.length < 1) return reply(`Mau nyari apa`)
-                    anu = await fetchJson(`https://docs-jojo.herokuapp.com/api/wattpad_search?q=${body.slice(15)}`, {method: 'get'})
-                    for (let i anu.result){
-                    teks += `-------- *WATPAD*--------\n\nTitile : ${i.title}\nReads : ${i.reads}\nVotes : ${i.votes}\nLink : ${i.url}\nDeskripsi : {i.description}\n–––––––––––––––`
-                   }
-                    reply(teks.trim())
-                    break
                 case 'happymod':
                     hmm = body.slice(10)
                     anu = await fetchJson(`https://api.zeks.xyz/api/happymod?apikey=apivinz&q=${hmm}`, {method: 'get'})
