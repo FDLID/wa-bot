@@ -127,7 +127,6 @@ const help = (pushname, prefix, time) => {
 ╠◪ *${prefix}happymod*
 ╠◪ *${prefix}bacakomik*
 ╠◪ *${prefix}jadwaltvnow*
-╠◪ *${prefix}watpaddsearch*
 ╠════════════════════
 ║           *RANDOM IMG*
 ╠════════════════════
