@@ -490,7 +490,7 @@ async function starts() {
 	                if (err) return reply('Terjadi kesalahan')
 				    fs.unlinkSync(ranp)
 				    buffer2 = fs.readFileSync(rano)
-				    client.sendMessage(buffer2, sticker, {quoted:mek)
+				    client.sendMessage(buffer2, sticker, {quoted: mek})
 				    fs.unlinkSync(rano)
 				     })
 				    break
