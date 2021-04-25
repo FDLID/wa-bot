@@ -1733,7 +1733,7 @@ async function starts() {
 			break
 			case 'water1':
 			teks = body.slice(8)
-			buffer = await.getBuffer(`https://docs-jojo.herokuapp.com/api/watercolor?text=${teks}`, {method: 'get})
+			buffer = await getBuffer(`https://docs-jojo.herokuapp.com/api/watercolor?text=${teks}`, {method: 'get})
 			client.sendMessage(from, buffer, image, {quoted: mek})
 			break
 			case 'tahta':
